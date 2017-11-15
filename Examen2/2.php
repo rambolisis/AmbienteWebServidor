@@ -20,17 +20,21 @@ class Fecha {
 
       $mananaa=$dia+1;
 
+      echo  "<b>  $this->$mananaa" ;
+
 	}
 
 	function ayer(){
 
 		 $ayer=$dia-1;
+		 echo  "<b>  $this->$ayer" ;
 
 		
 	}
 	function dehoyenocho(){
 
 		 $dehoyenocho=$dia+8;
+		 echo  "<b>  $this->$dehoyenocho" ;
 
 		
 	}
